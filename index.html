@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gülçin'e ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="hearts" aria-hidden="true"></div>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <p class="eyebrow">02 EKİM • GÜLÇİN'İN GÜNÜ</p>
+        <h1>İyi ki doğdun,<br><span>Gülçin.</span> ❤️</h1>
+        <p class="lead">Bugün takvimde sadece bir tarih değil. Benim için, iyi ki var dediğim insanın dünyaya geldiği gün.</p>
+        <button class="primary" onclick="scrollToId('letter')">Sana küçük bir sürprizim var ↓</button>
+      </div>
+    </section>
+
+    <section id="letter" class="section">
+      <div class="card letter-card">
+        <p class="eyebrow">SANA</p>
+        <h2>Bir doğum günü mektubu</h2>
+        <p>
+          Gülçin, hayatıma girdiğin için kendimi gerçekten şanslı hissediyorum.
+          Bazen birkaç kelime, bazen küçücük bir gülümseme bile günümü güzelleştiriyor.
+        </p>
+        <p>
+          Bugün senin günün. Dilerim yeni yaşın sana bolca mutluluk, huzur,
+          güzel anılar ve birlikte yaşayacağımız daha nice güzel gün getirir.
+        </p>
+        <p class="signature">İyi ki doğdun sevgilim. ❤️</p>
+      </div>
+    </section>
+
+    <section class="section timeline">
+      <p class="eyebrow">BİZİM HİKÂYEMİZ</p>
+      <h2>Her şey bir 22 Kasım'da başladı.</h2>
+      <div class="story-grid">
+        <article class="story-card">
+          <div class="date">22.11.2025</div>
+          <h3>Seni tanıdığım gün</h3>
+          <p>Hayatımın güzel bir bölümünün başlangıcı. O günü artık sıradan bir tarih olarak göremiyorum.</p>
+        </article>
+        <article class="story-card highlight">
+          <div class="date">02.10</div>
+          <h3>Senin günün</h3>
+          <p>Bugün bütün güzel dilekler sana. İyi ki dünyaya gelmişsin, Gülçin.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reasons">
+      <p class="eyebrow">SENİ SEVMEK</p>
+      <h2>En güzel küçük şeyler</h2>
+      <div class="reason-grid">
+        <div class="reason"><span>01</span><strong>Gülüşün</strong><p>Bir anda bütün havayı değiştirebilen o güzel gülüşün.</p></div>
+        <div class="reason"><span>02</span><strong>Varlığın</strong><p>Yanımda olman, en sıradan anları bile özel yapıyor.</p></div>
+        <div class="reason"><span>03</span><strong>Anılarımız</strong><p>Birlikte biriktireceğimiz daha yüzlerce güzel anı için.</p></div>
+        <div class="reason"><span>04</span><strong>Sen</strong><p>Seni sen yapan bütün küçük detaylar için. ❤️</p></div>
+      </div>
+    </section>
+
+    <section class="section countdown-section">
+      <div class="countdown-card">
+        <p class="eyebrow">YENİ YAŞINA</p>
+        <h2>Geri sayım</h2>
+        <div id="countdown" class="countdown">
+          <div><b id="days">00</b><span>gün</span></div>
+          <div><b id="hours">00</b><span>saat</span></div>
+          <div><b id="minutes">00</b><span>dakika</span></div>
+          <div><b id="seconds">00</b><span>saniye</span></div>
+        </div>
+        <p id="countdownText">Bir sonraki 2 Ekim'e kalan zaman…</p>
+      </div>
+    </section>
+
+    <section class="section final">
+      <div class="final-inner">
+        <div class="big-heart">♥</div>
+        <p class="eyebrow">SON BİR ŞEY</p>
+        <h2>İyi ki seni tanımışım.</h2>
+        <p>Ve umarım bu hikâyenin daha çok 22 Kasım'ı, daha çok 2 Ekim'i olur.</p>
+        <p class="final-name">— Seni seven biri ❤️</p>
+        <div class="video-wrap">
+          <video controls playsinline preload="metadata">
+            <source src="gulcin-surpriz.mp4" type="video/mp4">
+            Tarayıcınız videoyu desteklemiyor.
+          </video>
+        </div>
+        <button class="primary" onclick="makeConfetti()">Bir dilek tut ✨</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>Gülçin için, sevgiyle hazırlanmıştır. ❤️</footer>
+  <script src="script.js"></script>
+</body>
+</html>
